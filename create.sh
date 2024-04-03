@@ -15,6 +15,8 @@ do
 done
 cmd //c tree //F ./
 
+mv app.js ./js
+mv meme.jpg ./img
 mv style.css ./css
 mv *.txt ./docs/text
 mv main.py ./docs/python
