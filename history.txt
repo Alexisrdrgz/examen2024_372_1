@@ -1,0 +1,309 @@
+git init
+git status
+git add
+git add .
+git commit -m "practica 1 y 2"
+git config --global user.email rodriguez.alexis0404@gmail.com
+git config --global user.name Alexisrdrgz
+git branch -M main
+git remote add origin https://github.com/Alexisrdrgz/PracticasDSW.git
+git push -u origin main
+git remote add origin https://github.com/Alexisrdrgz/PracticasDSW.git
+git push -u origin main
+git push
+git push -u origin main
+git remote add origin https://github.com/Alexisrdrgz/PracticasDSW.git
+git remote -v
+git push origin main
+git remote add origin http://github.com/Alexisrdrgz/PracticasDSW.git
+git push origin main
+git branch -M main
+git remote -v
+git init
+git status
+git add .
+git commit -m "practicas 1 y 2"
+git remote -v
+git push
+git push --set-upstream origin main
+git push -U origin main
+git push origin main
+git remote add origin https://github.com/Alexisrdrgz/PracticasDSW.git
+git push
+git push -u origin main
+git remote add origin https://github.com/Alexisrdrgz/PracticasDSW.git
+git init
+git status
+git add .
+git commit -m "practicas 1 y 2"
+git config --global user.email rodriguez.alexis0404@gmail.com
+git config --global user.name Alexisrdrgz
+git branch -M main
+git remote add origin https://github.com/Alexisrdrgz/PracticasDSW.git
+git push -u origin main
+git push -u origin main
+git push -u origin main
+git pull
+git pull https://github.com/Alexisrdrgz/PracticasDSW.git
+git remote -v
+git pull https://github.com/Alexisrdrgz/PracticasDSW.git
+git pull https://github.com/Alexisrdrgz/PracticasDSW.git --allow-unrelated-histories
+git remote -v
+git push -u origin main
+git clone https://github.com/Alexisrdrgz/PracticasDSW.git
+git pull
+git pull .
+git init
+git status
+git commit -m "carpeta donde iran las practias"
+git add.
+git add .
+git commit -m "carpeta donde iran las practias"
+git restore
+git restore ../Ejercicio1.html
+git restore ../Ejercicio2.htmlk
+git restore ../Ejercicio2.html
+git restore ../ejercicio2.html
+git add .
+git commit -m "carpeta donde iran las practicas"
+git add practica3.html
+git add Practica3.html
+git add ../Practica3.html
+git commit -m "practica 3"
+git pusj
+git push
+git add ../Practica4.html
+git commit -m "practica 4"
+git push
+git add ../practicas3y4
+whoami
+hsotname
+hostname
+pwd
+cd /
+pwd
+pwd
+cd ~
+ls
+cd Desktop
+ls
+cd..
+cd ..
+cd Desktop/
+mkdir test
+ls
+mkdir test/1/2/3
+cd test/
+mkdir 1 cd 1 mkdir 2 cd 2 mkdir 3
+mkdir 1
+rmkdir -rf test/
+rm -rf desktop/
+ls
+cd..
+cd ..
+rm -rf test
+ls
+mkdir test
+cd test
+explorer .
+start .
+start http://www.google.com
+mkdir -p uno/dos/tres
+ls
+cd uno/
+ls
+cd dos/
+ls
+cd tres/
+ls
+cd ~
+cd Desktop/
+cd test/
+echo "Hola soy un archivo txt" > file.txt
+ls
+start file.txt
+echo " txt" > file.txt
+start file.txt
+cat file.txt
+echo "Hola soy un archivo txt" > file.txt
+cat file.txt
+echo "Hola soy un archivo txt" >> file.txt
+cat file.txt
+echo "Hola soy un archivo txt" >> file.txt
+cat file.txt
+echo "Hola soy un archivo txt" >> file.txt
+cat file.txt
+history
+history
+curl https://jsonplaceholder.typicode.com/todos
+curl https://jsonplaceholder.typicode.com/todos
+curl https://jsonplaceholder.typicode.com/todos
+curl https://jsonplaceholder.typicode.com/todos
+curl -G https://jsonplaceholder.typicode.com/todos --url-encode "userId:10"
+curl --help
+curl --help all
+curl -s https://jsonplaceholder.typicode.com/todos | grep 'id'
+curl https://jsonplaceholder.typicode.com/todos | grep 'id'
+curl -s https://jsonplaceholder.typicode.com/todos | jq '.[].id'
+curl -s https://jsonplaceholder.typicode.com/todos | grep -o '"id":[0-9]*' | cut -d ':' -f 2
+curl -s https://jsonplaceholder.typicode.com/todos | grep phone
+curl https://jsonplaceholder.typicode.com/todos | grep phone
+curl https://jsonplaceholder.typicode.com/todos | grep 'id'
+sudo apt-get install jq
+npm i jq
+curl -s https://jsonplaceholder.typicode.com/todos | jq '.[].id'
+curl -s https://jsonplaceholder.typicode.com/todos | jq '.[].id'
+curl -s https://jsonplaceholder.typicode.com/todos | jq '.[].id'
+cd Desktop/
+mkdir python
+cd python
+ls
+touch main.py
+code .
+cd Desktop/
+cd python
+cd JupyterNotebook/
+source ./virtual/Scripts/activate
+ls
+pip list
+code .
+ipython
+pip install ipython
+ipython
+deactivate
+ls
+ipython
+source ./virtual/Scripts/activate
+pip list
+olorama.init() colorama.init()
+pip isntall asciiart
+pip install asciiart
+ls
+ls
+ls
+pip list
+pip unistall asciiart
+pip uninstall asciiart
+pip install ascii-magic
+ls
+pip list
+pip freeze
+pip freeze > requirements.txt
+cat requirements.txt
+deactivate
+cd..
+cd,,
+cd ..
+mkdir chinoproject
+cd chinoproject/
+mv ../jupyrt/requirements/txt ./
+mv ../jupyter/requirements/txt ./
+mv ../JupyterNotebook/requirements/txt ./
+mv ../JupyterNotebook/requirements.txt ./
+ls
+python -m venv chinoenv
+source ./virtual/activate
+source ./virtual/scripts/activate
+source ./chinoenv/Scripts/activate
+pip list
+pip install -r requirements.txt 
+pip install jupyter
+jupyter lab
+deactivate
+cd ~
+mkdir examen372
+cd examen372/
+touch create.sh
+sudo nano create.sh
+nano create.sh
+`"#! /bin/bash"`* >> create.sh
+echo "#! /bin/bash" >> create.sh
+cat create.sh
+echo "rm -rf webapp" >> create.sh
+echo "mkdir -p webapp/{css,js,docs/{text,python},img}" >> create.sh
+cat create.sh
+echo " for file in index.html style.css app.js main.py
+    do
+        touch ./"${file}"
+    done" >> create.sh
+cmd //c tree //F ./
+cmd //c tree //F ./create.sh
+cmd //c tree //F ./
+ls
+curl -o meme.jpg "https://pm1.aminoapps.com/7021/417429318f6b29b6bc737fb95ba1ddafc9ba2decr1-720-642v2_hq.jpg"
+ls
+nano create.sh
+nano create.sh
+ls
+code .
+ls
+nano create.sh
+./create.sh
+ls
+cd webapp/
+ls
+cd ../
+ls
+rm -f webapp/
+rm -rf webapp/
+ls
+nano create.sh
+./create.sh
+ls
+cd webapp/
+ls
+cd docs/
+ls
+cd text/
+ls
+cd ../
+cd ../
+cd ../
+ls
+nano create.sh 
+ls
+rm -rf webapp/
+ls
+./create.sh
+nano create.sh 
+ls
+rm -rf webapp/
+./create.sh
+nano create.sh 
+ls
+clear
+history
+ls
+rm -rf werbapp/
+ls
+rm -rf webapp/
+ls
+./create.sh
+nano create.sh 
+rm -rf webapp
+ls
+./create.sh
+ls
+python -m venv myenv
+ls
+source myenv/bin/activate
+myenv\Scripts\activate
+cd myenv/
+ls
+cd ../
+source ./myenv/bin/activate
+source ./myenv/Scripts/activate
+pip install jupyter
+jupyter lab
+exit
+cd examen372/
+ls
+echo history >> history.txt
+cat history.txt 
+echo history > history.txt
+cat history.txt 
+ls
+echo "history" > history.txt
+cat history.txt 
+history
+history -w history.txt
